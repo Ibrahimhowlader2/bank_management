@@ -89,9 +89,7 @@ WSGI_APPLICATION = 'bank_management.wsgi.application'
 # }
 DATABASES = {
     'default': dj_database_url.config(
-        # Replace this value with your local database's connection string.
-        default='postgres://bankmanagement_lkgb_user:KJkLLIiYluwxgk0kbzoXZZDKOp2ckcyz@dpg-cpk2qvacn0vc73avfmrg-a.oregon-postgres.render.com/bankmanagement_lkgb',
-        conn_max_age=600
+        default='postgresql://bank_management_otj6_user:SPCbtsZpcKLgI8jIVXcKK5fTOiqZD5Xp@dpg-cpv25b5umphs73c4d0mg-a.oregon-postgres.render.com/bank_management_otj6',
     )
 }
 
