@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'core',
     'transactions',
 ]
+CSRF_TRUSTED_ORIGINS = ['https://library-management-ccsh.onrender.com']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
